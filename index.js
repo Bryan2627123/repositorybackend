@@ -3,7 +3,7 @@ const http = require('http')
 
 function requestController(req, res) {
   console.log('Bienvenidos al curso');
-  res.writeHead(200, { 'Content-Type': 'text/html' });
+  res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
   res.end('<h1>Aplicación desplegada con éxito 🚀</h1>');
 }
 
